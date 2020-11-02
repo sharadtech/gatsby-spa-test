@@ -29,7 +29,7 @@ The main parts of the project are:
   In order for images to be displayed:
   Open the Security app, open the `Roles` tab, edit the `anonymous` role, go to `Web access` tab, `Add new` with this path `/dam/*` set to GET.
 
-  ![Image Access for Anonymous](magnolia/_dev/README-security-anonymous-dam.png)
+  ![Image Access for Anonymous](https://github.com/sharadtech/gatsby-spa-test/blob/master/magnolia/_dev/content-to-import/README-security-anonymous-dam.png)
 
 * Install the SPA Application
   `cd gatsby-spa-test/spa/gatsby-spa-test-magnolia`
@@ -48,7 +48,7 @@ The main parts of the project are:
 
 * Test Website should be accessible and must look like as follows:
 
-  ![Final Result](magnolia/_dev/README-FinalWebPage-TestResult.png)
+  ![Final Result](https://github.com/sharadtech/gatsby-spa-test/blob/master/magnolia/_dev/content-to-import/README-FinalWebPage-TestResult.png)
 
 ### Testing
 
