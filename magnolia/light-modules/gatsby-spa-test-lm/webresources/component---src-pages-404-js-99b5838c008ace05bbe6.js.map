@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/404.js"],"names":["NotFoundPage"],"mappings":"2FAAA,gCAQeA,UANM,kBAEjB","file":"component---src-pages-404-js-99b5838c008ace05bbe6.js","sourcesContent":["import React from \"react\"\n\nconst NotFoundPage = () => (\n\n    <h1>404 - NOT FOUND</h1>\n\n)\n\nexport default NotFoundPage\n"],"sourceRoot":""}

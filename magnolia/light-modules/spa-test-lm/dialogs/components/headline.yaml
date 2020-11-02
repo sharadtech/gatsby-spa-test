@@ -1,0 +1,28 @@
+label: Headline
+form:
+ tabs:
+    - name: headlineTab
+      label: Headline
+      fields:
+        - name: text
+          label: Headline Text
+          fieldType: text
+          required: true
+          i18n: true
+        - name: tag
+          fieldType: select
+          label: Tag
+          options:
+            - label: H1
+              value: h1
+              selected: true
+            - label: H2
+              value: h2
+            - label: H3
+              value: h3
+    
+actions:
+  Save:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  Cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

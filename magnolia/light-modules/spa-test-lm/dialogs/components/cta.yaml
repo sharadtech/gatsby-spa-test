@@ -1,0 +1,23 @@
+label: CTA
+form:
+ tabs:
+    - name: mainTab
+      label: CTA
+      fields:
+        - name: ctatext
+          label: CTA Label
+          fieldType: text
+          required: true
+          i18n: true
+        - name: ctalink
+          label: CTA Link
+          fieldType: text
+          required: true
+          i18n: true
+        
+    
+actions:
+  Save:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  Cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

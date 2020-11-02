@@ -1,0 +1,92 @@
+'gatsby-spa-test':
+  'jcr:primaryType': 'mgnl:page'
+  'jcr:uuid': '603ea0cc-df1a-4483-921e-d099545b8c5f'
+  'mgnl:created': 2020-11-01T06:37:41.335Z
+  'mgnl:createdBy': 'superuser'
+  'mgnl:lastModified': 2020-11-02T03:17:11.077Z
+  'mgnl:lastModifiedBy': 'superuser'
+  'mgnl:template': 'gatsby-spa-test-lm:pages/content'
+  'title': 'SPA TEST'
+  'top':
+    'jcr:primaryType': 'mgnl:area'
+    'jcr:uuid': '737b44fe-e0c6-4cab-b0f6-13e14d2f09c9'
+    'mgnl:created': 2020-11-01T06:37:45.064Z
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastModified': 2020-11-02T03:12:46.616Z
+    'mgnl:lastModifiedBy': 'superuser'
+    '0':
+      'alttext': 'Subscribe and Save'
+      'desktopImage': 'jcr:fec6b12f-41dc-4578-8528-7f6bf530a6bc'
+      'jcr:primaryType': 'mgnl:component'
+      'jcr:uuid': 'd125b658-a113-4b4d-b147-8f32ecd06514'
+      'mgnl:created': 2020-11-02T03:12:46.616Z
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2020-11-02T03:12:46.616Z
+      'mgnl:lastModifiedBy': 'superuser'
+      'mgnl:template': 'spa-test-lm:components/hero'
+      'mobileImage': 'jcr:80d091ae-22ce-4cfc-b302-cb39f25c3d30'
+      'tabletImage': 'jcr:1044b3b8-30b1-48fe-8078-832b6cef8fb5'
+  'main':
+    'jcr:primaryType': 'mgnl:area'
+    'jcr:uuid': 'ccbbf394-4190-42fb-b860-29ace7766704'
+    'mgnl:created': 2020-11-01T06:37:45.064Z
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastModified': 2020-11-02T03:16:43.439Z
+    'mgnl:lastModifiedBy': 'superuser'
+    '0':
+      'jcr:primaryType': 'mgnl:component'
+      'jcr:uuid': 'b4499caf-8866-41e8-b2d7-ef9e994c4069'
+      'mgnl:created': 2020-11-02T03:15:56.413Z
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2020-11-02T03:15:56.413Z
+      'mgnl:lastModifiedBy': 'superuser'
+      'mgnl:template': 'spa-test-lm:components/headline'
+      'tag': 'h1'
+      'text': 'Subscribe & Save'
+    '00':
+      'jcr:primaryType': 'mgnl:component'
+      'jcr:uuid': '509bc3f5-e101-4e95-8e64-59bbc204b066'
+      'mgnl:created': 2020-11-02T03:16:18.820Z
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2020-11-02T03:16:18.820Z
+      'mgnl:lastModifiedBy': 'superuser'
+      'mgnl:template': 'spa-test-lm:components/headline'
+      'tag': 'h2'
+      'text': 'Save up to 15% when you subscribe to your favourite products'
+    '01':
+      'jcr:primaryType': 'mgnl:component'
+      'jcr:uuid': 'e23d8be6-ff1f-4d58-872a-7a97a13de701'
+      'mgnl:created': 2020-11-02T03:16:43.439Z
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2020-11-02T03:16:43.439Z
+      'mgnl:lastModifiedBy': 'superuser'
+      'mgnl:template': 'spa-test-lm:components/richtext'
+      'richText': '<p>Subscribe today and you&rsquo;ll receive exclusive discounts
+        and benefits. Not only are you guaranteed the lowest price for your chosen
+        products, you&rsquo;ll also get free delivery on your recurring orders. Save
+        time and effort by ensuring your products are delivered to your door at the
+        frequency you decide.</p>
+
+
+        <p>Signing up for a subscription order is easy - just select the Subscribe
+        &amp; Save option on the product page and choose how often you&#39;d like
+        it delivered before adding to your basket, and then checkout as normal.</p>
+
+        '
+  'bottom':
+    'jcr:primaryType': 'mgnl:area'
+    'jcr:uuid': 'a57bf4f2-609d-484c-978c-31ed739199ba'
+    'mgnl:created': 2020-11-01T06:37:45.064Z
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastModified': 2020-11-02T03:17:11.077Z
+    'mgnl:lastModifiedBy': 'superuser'
+    '0':
+      'ctalink': 'https://www.hollandandbarrett.com/'
+      'ctatext': 'Start Shopping'
+      'jcr:primaryType': 'mgnl:component'
+      'jcr:uuid': 'da4ebd19-5eb0-44b1-b8b5-ccdb24427b4e'
+      'mgnl:created': 2020-11-02T03:17:11.077Z
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2020-11-02T03:17:11.077Z
+      'mgnl:lastModifiedBy': 'superuser'
+      'mgnl:template': 'spa-test-lm:components/cta'

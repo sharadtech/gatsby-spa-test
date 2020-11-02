@@ -1,0 +1,44 @@
+title: 'Gatsby SPA Test: Content Page'
+templateScript: /gatsby-spa-test-lm/webresources/public/index.html
+dialog: spa-test-lm:pages/basic
+
+renderType: spa
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+
+areas:
+
+  top:
+    title: Top Area
+    availableComponents:
+      Headline:
+        id: spa-test-lm:components/headline
+      Rich Text:
+        id: spa-test-lm:components/richtext
+      Hero:
+        id: spa-test-lm:components/hero
+      CTA:
+        id: spa-test-lm:components/cta
+
+  main:
+    title: Main Area
+    availableComponents:
+      Headline:
+        id: spa-test-lm:components/headline
+      Image:
+        id: spa-test-lm:components/image
+      Rich Text:
+        id: spa-test-lm:components/richtext
+      Hero:
+        id: spa-test-lm:components/hero
+      CTA:
+        id: spa-test-lm:components/cta
+        
+  bottom:
+    title: Bottom Area
+    availableComponents:
+      Rich Text:
+        id: spa-test-lm:components/richtext
+      Image:
+        id: spa-test-lm:components/image
+      CTA:
+        id: spa-test-lm:components/cta

@@ -1,0 +1,53 @@
+label: Hero
+form:
+ tabs:
+    - name: tabDesktopImage
+      label: Desktop Image
+      fields:
+        - name: desktopImage
+          fieldType: link
+          required: true
+          targetWorkspace: dam
+          appName: assets
+          label: Select desktop image
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+        - name: alttext
+          label: Image Alt Text
+          fieldType: text
+          required: true
+          i18n: true
+    - name: tabTabletImage
+      label: Tablet Image
+      fields:    
+        - name: tabletImage
+          fieldType: link
+          required: true
+          targetWorkspace: dam
+          appName: assets
+          label: Select tablet image
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+    - name: tabMobileImage
+      label: Mobile Image
+      fields:    
+        - name: mobileImage
+          fieldType: link
+          required: true
+          targetWorkspace: dam
+          appName: assets
+          label: Select mobile image
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+    
+actions:
+  Save:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  Cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
